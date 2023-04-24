@@ -45,6 +45,7 @@
 		0430170429F68EC5005AFDA1 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170229F68EC5005AFDA1 /* ProfileSummary.swift */; };
 		0430170529F68EC5005AFDA1 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170329F68EC5005AFDA1 /* ProfileHost.swift */; };
 		0430170729F69046005AFDA1 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170629F69046005AFDA1 /* HikeBadge.swift */; };
+		0430170929F6965E005AFDA1 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170829F6965E005AFDA1 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		0430170229F68EC5005AFDA1 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		0430170329F68EC5005AFDA1 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		0430170629F69046005AFDA1 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		0430170829F6965E005AFDA1 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 			children = (
 				0430170329F68EC5005AFDA1 /* ProfileHost.swift */,
 				0430170229F68EC5005AFDA1 /* ProfileSummary.swift */,
+				0430170829F6965E005AFDA1 /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				0430170529F68EC5005AFDA1 /* ProfileHost.swift in Sources */,
 				043016E929F68EAC005AFDA1 /* FavoriteButton.swift in Sources */,
 				043016F829F68EBB005AFDA1 /* LandmarkDetail.swift in Sources */,
+				0430170929F6965E005AFDA1 /* ProfileEditor.swift in Sources */,
 				043016C429F68D40005AFDA1 /* Hike.swift in Sources */,
 				043016FF29F68EC0005AFDA1 /* PageViewController.swift in Sources */,
 				043016D929F68E28005AFDA1 /* Badge.swift in Sources */,
