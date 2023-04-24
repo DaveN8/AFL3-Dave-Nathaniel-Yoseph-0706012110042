@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0430169729F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430169629F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift */; };
+		0430169929F68B6B005AFDA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430169829F68B6B005AFDA1 /* ContentView.swift */; };
+		0430169B29F68B6C005AFDA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430169A29F68B6C005AFDA1 /* Assets.xcassets */; };
+		0430169E29F68B6C005AFDA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430169D29F68B6C005AFDA1 /* Preview Assets.xcassets */; };
+		043016A829F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043016A729F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift */; };
+		043016B229F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043016B129F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift */; };
+		043016B429F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043016B329F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043016A429F68B6C005AFDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0430168B29F68B6B005AFDA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0430169229F68B6B005AFDA1;
+			remoteInfo = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+		};
+		043016AE29F68B6C005AFDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0430168B29F68B6B005AFDA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0430169229F68B6B005AFDA1;
+			remoteInfo = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0430169329F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-Dave Nathaniel Yoseph-0706012110042.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0430169629F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift; sourceTree = "<group>"; };
+		0430169829F68B6B005AFDA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0430169A29F68B6C005AFDA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0430169D29F68B6C005AFDA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		043016A329F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-Dave Nathaniel Yoseph-0706012110042Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043016A729F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift; sourceTree = "<group>"; };
+		043016AD29F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-Dave Nathaniel Yoseph-0706012110042UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043016B129F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift; sourceTree = "<group>"; };
+		043016B329F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0430169029F68B6B005AFDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043016A029F68B6C005AFDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043016AA29F68B6C005AFDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0430168A29F68B6B005AFDA1 = {
+			isa = PBXGroup;
+			children = (
+				0430169529F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */,
+				043016A629F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests */,
+				043016B029F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests */,
+				0430169429F68B6B005AFDA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0430169429F68B6B005AFDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0430169329F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042.app */,
+				043016A329F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests.xctest */,
+				043016AD29F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0430169529F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */ = {
+			isa = PBXGroup;
+			children = (
+				0430169629F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift */,
+				0430169829F68B6B005AFDA1 /* ContentView.swift */,
+				0430169A29F68B6C005AFDA1 /* Assets.xcassets */,
+				0430169C29F68B6C005AFDA1 /* Preview Content */,
+			);
+			path = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+			sourceTree = "<group>";
+		};
+		0430169C29F68B6C005AFDA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0430169D29F68B6C005AFDA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		043016A629F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests */ = {
+			isa = PBXGroup;
+			children = (
+				043016A729F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift */,
+			);
+			path = "AFL3-Dave Nathaniel Yoseph-0706012110042Tests";
+			sourceTree = "<group>";
+		};
+		043016B029F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests */ = {
+			isa = PBXGroup;
+			children = (
+				043016B129F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift */,
+				043016B329F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift */,
+			);
+			path = "AFL3-Dave Nathaniel Yoseph-0706012110042UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0430169229F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043016B729F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042" */;
+			buildPhases = (
+				0430168F29F68B6B005AFDA1 /* Sources */,
+				0430169029F68B6B005AFDA1 /* Frameworks */,
+				0430169129F68B6B005AFDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+			productName = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+			productReference = 0430169329F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043016A229F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043016BA29F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042Tests" */;
+			buildPhases = (
+				0430169F29F68B6C005AFDA1 /* Sources */,
+				043016A029F68B6C005AFDA1 /* Frameworks */,
+				043016A129F68B6C005AFDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043016A529F68B6C005AFDA1 /* PBXTargetDependency */,
+			);
+			name = "AFL3-Dave Nathaniel Yoseph-0706012110042Tests";
+			productName = "AFL3-Dave Nathaniel Yoseph-0706012110042Tests";
+			productReference = 043016A329F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043016AC29F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043016BD29F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042UITests" */;
+			buildPhases = (
+				043016A929F68B6C005AFDA1 /* Sources */,
+				043016AA29F68B6C005AFDA1 /* Frameworks */,
+				043016AB29F68B6C005AFDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043016AF29F68B6C005AFDA1 /* PBXTargetDependency */,
+			);
+			name = "AFL3-Dave Nathaniel Yoseph-0706012110042UITests";
+			productName = "AFL3-Dave Nathaniel Yoseph-0706012110042UITests";
+			productReference = 043016AD29F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0430168B29F68B6B005AFDA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0430169229F68B6B005AFDA1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					043016A229F68B6C005AFDA1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0430169229F68B6B005AFDA1;
+					};
+					043016AC29F68B6C005AFDA1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0430169229F68B6B005AFDA1;
+					};
+				};
+			};
+			buildConfigurationList = 0430168E29F68B6B005AFDA1 /* Build configuration list for PBXProject "AFL3-Dave Nathaniel Yoseph-0706012110042" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0430168A29F68B6B005AFDA1;
+			productRefGroup = 0430169429F68B6B005AFDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0430169229F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */,
+				043016A229F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042Tests */,
+				043016AC29F68B6C005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0430169129F68B6B005AFDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0430169E29F68B6C005AFDA1 /* Preview Assets.xcassets in Resources */,
+				0430169B29F68B6C005AFDA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043016A129F68B6C005AFDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043016AB29F68B6C005AFDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0430168F29F68B6B005AFDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0430169929F68B6B005AFDA1 /* ContentView.swift in Sources */,
+				0430169729F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0430169F29F68B6C005AFDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043016A829F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043016A929F68B6C005AFDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043016B429F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITestsLaunchTests.swift in Sources */,
+				043016B229F68B6C005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043016A529F68B6C005AFDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0430169229F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */;
+			targetProxy = 043016A429F68B6C005AFDA1 /* PBXContainerItemProxy */;
+		};
+		043016AF29F68B6C005AFDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0430169229F68B6B005AFDA1 /* AFL3-Dave Nathaniel Yoseph-0706012110042 */;
+			targetProxy = 043016AE29F68B6C005AFDA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043016B529F68B6C005AFDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043016B629F68B6C005AFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043016B829F68B6C005AFDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-Dave Nathaniel Yoseph-0706012110042/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043016B929F68B6C005AFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-Dave Nathaniel Yoseph-0706012110042/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043016BB29F68B6C005AFDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-Dave Nathaniel Yoseph-0706012110042.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-Dave Nathaniel Yoseph-0706012110042";
+			};
+			name = Debug;
+		};
+		043016BC29F68B6C005AFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-Dave Nathaniel Yoseph-0706012110042.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-Dave Nathaniel Yoseph-0706012110042";
+			};
+			name = Release;
+		};
+		043016BE29F68B6C005AFDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+			};
+			name = Debug;
+		};
+		043016BF29F68B6C005AFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W33R96Y3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dave.AFL3-Dave-Nathaniel-Yoseph-0706012110042UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-Dave Nathaniel Yoseph-0706012110042";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0430168E29F68B6B005AFDA1 /* Build configuration list for PBXProject "AFL3-Dave Nathaniel Yoseph-0706012110042" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043016B529F68B6C005AFDA1 /* Debug */,
+				043016B629F68B6C005AFDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043016B729F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043016B829F68B6C005AFDA1 /* Debug */,
+				043016B929F68B6C005AFDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043016BA29F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043016BB29F68B6C005AFDA1 /* Debug */,
+				043016BC29F68B6C005AFDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043016BD29F68B6C005AFDA1 /* Build configuration list for PBXNativeTarget "AFL3-Dave Nathaniel Yoseph-0706012110042UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043016BE29F68B6C005AFDA1 /* Debug */,
+				043016BF29F68B6C005AFDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0430168B29F68B6B005AFDA1 /* Project object */;
+}
