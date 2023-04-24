@@ -44,6 +44,7 @@
 		0430170029F68EC0005AFDA1 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043016FD29F68EC0005AFDA1 /* PageView.swift */; };
 		0430170429F68EC5005AFDA1 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170229F68EC5005AFDA1 /* ProfileSummary.swift */; };
 		0430170529F68EC5005AFDA1 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170329F68EC5005AFDA1 /* ProfileHost.swift */; };
+		0430170729F69046005AFDA1 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430170629F69046005AFDA1 /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		043016FD29F68EC0005AFDA1 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		0430170229F68EC5005AFDA1 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		0430170329F68EC5005AFDA1 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		0430170629F69046005AFDA1 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				043016EC29F68EB4005AFDA1 /* HikeGraph.swift */,
 				043016ED29F68EB4005AFDA1 /* HikeDetail.swift */,
 				043016EE29F68EB4005AFDA1 /* HikeView.swift */,
+				0430170629F69046005AFDA1 /* HikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -291,8 +294,8 @@
 		0430170129F68EC5005AFDA1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				0430170229F68EC5005AFDA1 /* ProfileSummary.swift */,
 				0430170329F68EC5005AFDA1 /* ProfileHost.swift */,
+				0430170229F68EC5005AFDA1 /* ProfileSummary.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				043016F229F68EB4005AFDA1 /* HikeView.swift in Sources */,
 				043016FE29F68EC0005AFDA1 /* PageControl.swift in Sources */,
 				0430169729F68B6B005AFDA1 /* AFL3_Dave_Nathaniel_Yoseph_0706012110042App.swift in Sources */,
+				0430170729F69046005AFDA1 /* HikeBadge.swift in Sources */,
 				043016F029F68EB4005AFDA1 /* HikeGraph.swift in Sources */,
 				043016E029F68E43005AFDA1 /* CategooryRow.swift in Sources */,
 				043016D529F68E28005AFDA1 /* RotatedBadgeSymbol.swift in Sources */,

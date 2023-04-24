@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
     
     var body: some View {
         // making or showing the view for a grouped landmark
@@ -17,11 +18,11 @@ struct CategoryHome: View {
                 PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
                     .aspectRatio(3/2, contentMode: .fit)
                 
-//                modelData.features[0].image
-//                    .resizable()
-//                    .scaledToFill()
-//                    .frame(height: 200)
-//                    .clipped()
+                //                modelData.features[0].image
+                //                    .resizable()
+                //                    .scaledToFill()
+                //                    .frame(height: 200)
+                //                    .clipped()
                     .listRowInsets(EdgeInsets())
                 
                 
@@ -30,7 +31,19 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
-                .navigationTitle("Featured")
+            .listStyle(.inset)
+            .navigationTitle("Featured")
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("USer Profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelData)
+            }
         }
     }
 }
