@@ -43,6 +43,7 @@ struct MapView: View {
     }
     
     // fungsi untuk mendapatkan kordinat dari setiap landmark
+    
 //    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
 //        region = MKCoordinateRegion(
 //            center: coordinate,
