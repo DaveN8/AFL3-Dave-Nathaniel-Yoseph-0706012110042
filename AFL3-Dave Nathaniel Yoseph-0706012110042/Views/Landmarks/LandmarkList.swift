@@ -38,10 +38,12 @@ struct LandmarkList: View {
         let title = filter == .all ? "Landmarks" : filter.rawValue
         return showFavoritesOnly ? "Favorite \(title)" : title
     }
+//    mengambil title filter dari filter yang dipilih, seperti Rivers, ketika memilih filter rivers
     
     var index: Int? {
         modelData.landmarks.firstIndex(where: { $0.id == selectedLandmark?.id })
     }
+//    variable untuk menyimpan index dari selected landmark
     
     var body: some View {
         NavigationView {
@@ -88,6 +90,8 @@ struct LandmarkList: View {
             Text("Select a Landmark")
             }
         .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
+//        memastikan agar data yg diedit adalah asli dna bukan copy
+        
 //        NavigationStack {
 //            List(landmarks) { landmark in
 //                NavigationLink {
