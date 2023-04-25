@@ -204,7 +204,6 @@
 		0430172729F69C58005AFDA1 /* WatchLandmarks Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchLandmarks Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430172B29F69C58005AFDA1 /* WatchLandmarks_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		0430172D29F69C58005AFDA1 /* WatchLandmarks_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0430175F29F6F657005AFDA1 /* WatchLandmarks-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WatchLandmarks-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0430177529F6F7F6005AFDA1 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		0430177629F6F7F6005AFDA1 /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0430177729F6F7F6005AFDA1 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -453,7 +452,6 @@
 		0430170F29F69C55005AFDA1 /* WatchLandmarks Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				0430175F29F6F657005AFDA1 /* WatchLandmarks-Watch-App-Info.plist */,
 				0430171429F69C57005AFDA1 /* Assets.xcassets */,
 				0430177D29F6F878005AFDA1 /* PushNotificationPayload.apns */,
 				0430177429F6F7F6005AFDA1 /* Views */,
