@@ -32,6 +32,7 @@ struct CategooryRow: View {
             .frame(height: 185)
             
             // making a template for the grouped landmark and the animation
+            
 //            HStack (alignment: .top, spacing: 0){
 //                ForEach(items) { landmark in
 //                    Text(landmark.name)
